@@ -1,0 +1,117 @@
+body{
+    margin: 0px;
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+   
+}
+.page{
+    border: 0px solid red;
+    width: 1000px;
+    margin: 65px auto 0px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 55px;
+    font-family: "Mulish", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+}
+ul{
+    list-style: none;
+    display: flex;
+    gap: 48px;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    font-family: "Mulish", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+ul li a{
+    text-decoration: none;
+    color: #1F1534;
+}
+
+ul li a:hover{
+    font-weight: bold;
+    opacity: 1;
+}
+h1{
+    font-size: 49px;
+    line-height: 56px;
+    font-family: "Mulish", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    font-family: "Mulish", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    color:#000000
+}
+h1 span{
+    color: #89C5CC;
+    font-weight: bold;
+}
+section p{
+    color: #7D7987;
+    font-size: 14px;
+    line-height: 28px;
+    margin: 40px 0px;
+}
+button{
+    cursor: pointer;
+    border-radius: 4px;
+    gap: 10px;
+    padding: 14px 32px 15px;
+    color: white;
+    background: #69B99D;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px;
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+}
+button:hover{
+    background: #419276;
+}
+footer{
+    text-align: center;
+    margin-top: 80px;
+    margin: 0px;
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+    font-size: 14px;
+    line-height: 28px
+}
+footer a{
+    color: black;
+    margin: 0px;
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: bold;
+}
+main{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+ul li a{
+    opacity: 0.5;
+}
